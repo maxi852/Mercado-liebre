@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="mobile-header">
+                <div class="logo">
+                    <a href="/"> 
+                        <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+                    </a> 
+                </div>
+                <div class="form" action="#" method="GET">                      
+                    <input type="text" class="input-description" placeholder="   Buscar productos, marcas y mas">
+                    <div class="submit"><i class="fa fa-search"></i></div>
+                </div>
+            </div>
+            <p class="copy-header"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+
+            <ul class="right-navbar">
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <form action="post" class="login-form">
+        <h2 class="login">Ingresá</h2>
+        <div class="entry-login"></div>
+            <label for="nombre-usuario"></label>
+            <input class="input-login" type="text" id="nombre-usuario" name="nombre-usuario" placeholder="Nombre de usuario">
+        </div>
+        <div class="entry-login"></div>            
+            <label for="password"></label>
+            <input class="input-login" type="password" id="password" name="password" placeholder="Contraseña">             
+        </div>
+        <div class="button-login">
+        <button type="submit" class="enter-login"><a href="/" class="pag-principal">Enviar</a></button>
+        </div>
+
+    </form>
+    
+</body>
+</html>

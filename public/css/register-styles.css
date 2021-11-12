@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 10px 15px 0 15px;
+    background-color: blanchedalmond;
+    border-radius: 2px;
+}
+
+.entry {
+    display: block;
+    margin:10px 0 0 15px;
+    
+}
+
+.subtitle-form {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.pag-principal {
+    text-decoration: none;
+    color: #000;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.enter {
+    margin: 10px;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.blank {
+    margin: 10px;
+    padding: 3%;
+    border-radius: 5px;
+}

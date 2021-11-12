@@ -1,0 +1,477 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #EAC926;
+    padding: 20px;
+    
+}
+ /*
+h2 {
+    text-align: center;
+}
+*/
+
+h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.logo{
+    width: 50%;
+    
+}
+
+.mobile-header {
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 90%;
+    
+}
+
+.form {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;  
+}
+
+
+
+
+
+.input-description{    
+    background-color: #FFF;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    color: #666;
+    width: 70%; 
+    font-size: 12px;
+    
+}
+
+
+
+header .form .submit{
+    
+    background-color: #FFF;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #666;
+    width: 20%;
+    
+    
+}
+
+.fa-search {
+    
+    font-size: 13px;
+    padding: 13px;
+    left: -5px;
+    position: relative;
+    
+}
+
+
+.copy-header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 13px;
+    
+}
+
+header nav{
+    font-size: 12px;
+    display: none;
+}
+
+header ul li{
+    list-style-type: none; /* elimina el bullet */
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+
+.burger-menu {
+    background-color: #0044AA;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;     /* se alinea porque use tambien display:block */
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount {
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.description {
+    margin-top: 15px;
+    display: none;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main section article{
+    background-color: #fff;
+    
+}
+
+main section article i {
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+transition: all 1000ms;
+}
+
+main section article i:hover{
+    transform: rotate(-90deg);
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+
+}
+
+article {
+    margin-bottom: 10px;
+    
+}
+.main-article {
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;          
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+section article .fas {
+    margin-bottom: 16px;
+}
+
+footer {
+    background-color: white;
+    margin: 0 40px;
+    
+    
+}
+
+footer h4, footer p {
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 40px 0px 40px;
+}
+
+
+
+
+footer .fas {
+    font-size: 2em;
+    color: blue;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 1%;
+}
+
+
+/**** register ******/
+
+.register-form {
+    padding: 20px 15px;
+    background-color: #ebebeb;
+    
+}
+
+.entry {
+    display: block;
+    margin:10px 0 0 15px;
+}
+
+.subtitle-form {
+    padding: 20px 0 10px 0;
+    font-size: 22px;
+}
+
+.input-register {
+    border: none;
+    width: 60% ;
+    padding:8px 8px;
+    border-radius: 2px;
+}
+
+
+.pag-principal {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;   
+}
+
+.enter {
+    background-color: #0044AA;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 25%;
+}
+
+.blank {
+    margin: 0 35%;
+    border-radius: 5px;
+}
+
+
+/**** LOGIN *****/
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;  
+}
+
+.login {
+    align-self: center;
+    margin: 10px; 
+}
+
+.input-login {
+    border: none;
+    margin: 14px 20%;
+    border-radius: 2px;
+    padding: 8px 8px;
+}
+
+.enter-login {
+    background-color: #0044AA;
+    color: white;
+    border-radius: 5px;
+    margin: 14px 20%;
+    width: 60%;
+    padding: 6px 6px;
+    transition: all 450ms;
+}
+
+.enter-login:hover {
+    background-color: #0022AA;
+    color: white;
+
+}
+
+@media(min-width:481px){
+    .top-header {        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .copy-header {
+        text-align: right;
+    } 
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;
+
+    }
+    .main-navbar li {
+        margin: 0 5px;
+        
+    }  
+    .main-navbar a {
+        font-size: 11px;
+    } 
+    
+
+
+
+
+
+
+
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 48%;
+
+    }
+    .burger-menu {
+        display: none;
+    }
+    header nav {
+        display: block;       
+    }
+
+    .price, .discount{
+    font-size: 13px;
+    }
+
+    .high-price {
+        font-size: 9px;
+    }
+    
+    main section article:hover .description{
+        display: block;
+    }    
+        
+
+    
+    
+}
+
+@media (min-width: 769px) {
+    .top-header {        
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header {
+        max-width: 350px;
+        font-size: 22px;
+        text-align: right;
+        margin: 0;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;
+
+    }
+    .main-navbar li {
+        margin: 0 5px;
+    }
+    main section article {
+        width: 24%;
+    }
+    .price {
+        font-size: 10px;
+        width: 28%;
+        margin-right: 2%;
+    }
+    .discount {
+        font-size: 13px;    
+    }
+    footer {
+        margin: 0 2%;
+    }
+    .top-footer {
+        display: flex;
+    }
+    .copyright {
+        position: relative;
+        right: 35%;
+        padding-bottom: 10px;   
+    }
+}
+
+@media (min-width:1200px) {
+    .logo {
+        width:250px;
+    }
+    
+    .top-header,
+    .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .top-header {
+        align-items: center;
+         
+    }
+    .form {
+        position: relative;
+        right: 150px;
+    }
+    header .form .submit {
+        width: 40px;
+    }
+    .main-navbar {
+        margin-top: 40px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .copy-header {
+        max-width: none;
+        font-size: 18px;
+        margin: 0;
+    }
+}
